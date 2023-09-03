@@ -2,13 +2,13 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
-        android:title="abc" />
+        android:title="All" />
     <item
         android:id="@+id/search"
         android:icon="@drawable/ic_search"
-        android:title="acb" />
+        android:title="Pending" />
     <item
         android:id="@+id/profile"
         android:icon="@drawable/ic_profile"
-        android:title="fq" />
+        android:title="Completed" />
 </menu>

@@ -1,9 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android. com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Taskapolis" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Taskapolis" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
     </style>
+
+
+
 
     <style name="Theme.Taskapolis" parent="Base.Theme.Taskapolis" />
 </resources>
